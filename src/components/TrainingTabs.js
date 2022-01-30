@@ -102,7 +102,7 @@ const TrainingTabs = () => {
             <h3 className="mb-2">URL Image</h3>
             <input
               type="text"
-              placeholder="Your description here..."
+              placeholder="Your image url here..."
               className="outline-none placeholder:text-sm bg-[#3d6cb9]/60 placeholder:text-white p-2 w-full"
               value={image}
               onChange={(e) => setImage(e.target.value)}
